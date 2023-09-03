@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <h1><b>Travel reservation form</b></h1>
+</head>
+<body>
+    <form>
+        <h2><b>* denotes mandotory</b></h2><br>
+
+        <div>
+            <label for ="fullname">Full Name*:</label><br>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for ="email">Email address*:</label><br>
+            <input type="email" required>
+        </div>
+        <div>
+            <label for ="tourpackage">Select Tour Package*:</label><br>
+            <select required>
+                <option>Goa</option>
+                <option>Kashmir</option>
+                <option>Maldivas</option>
+            </select>
+        </div>
+        <div>
+            <label for ="arrivaldate">Arrival date*:</label><br>
+            <input type="date" required>
+        </div>
+        <div>
+            <label for ="personnumber">Number of Persons*:</label><br>
+            <input type="number">
+        </div>
+        <div>
+            <label >What would you want to avail?*</label><br>
+            Boarding<input type="checkbox" required><br>
+            Fooding<input type="checkbox" required><br>
+            Sight seeing<input type="checkbox" required><br>
+        </div>
+        <div>
+            <label for ="coupon code">Discount Coupon code:</label><br>
+            <input type="text" >
+        </div>
+        <div>
+            <label for="rules" >Terms and conditions*:</label><br>
+            <input type="radio" name="rules" >I agree
+            <input type="radio" name="rules" >I disagree
+        </div>
+        <div>
+            <input type="submit" value="Complete reservation">
+        </div>
+
+    </form>  
+</body>
+</html>
